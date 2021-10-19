@@ -1,0 +1,54 @@
+! ~/.Xdefaults
+
+#include "colors/solarized2"
+
+!urxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=11,style:regular:hinting=true
+!urxvt.font: xft:Inconsolata:pixelsize=14,style:regular:hinting=true:antialiasing=true
+!urxvt.font: xft:Ubuntu Mono derivative Powerline:pixelsize=15,style:regular:hinting=true
+
+urxvt*buffered: true
+URxvt*font:                  xft:Source Code Pro Medium:pixelsize=13,xft:DejaVu Sans:pixelsize=10,,xft:DejaVu Sans:pixelsize=18
+
+!URxvt.font: xft:Inconsolata for Powerline:size=10:style=Medium
+!URxvt.font: xft:Inconsolata-dz:pixelsize=13:minspace=false:antialias=true
+!URxvt*font: xft:Source\ Code\ Pro\ Medium:piexelsize=13:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=12:antialias=true:hinting=true
+!URxvt*imFont:               xft:tixus:italic:pixelsize=10
+!URxvt*boldFont:             xft:tixus:bold:pixelsize=10
+!URxvt*italicFont:           xft:tixus:italic:pixelsize=10
+!URxvt*boldItalicFont:       xft:tixus:bold italic:pixelsize=10
+URxvt.letterSpace: 0
+*antialias:  true
+*autohint:   true
+
+
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755_52: false
+URxvt.iso14755: false
+
+!URxvt.boldMode:       false
+URxvt.intensityStyles: false
+!URxvt.skipBuiltinGlyphs: true
+
+urxvt.scrollBar:false
+urxvt.scrollBarRight:false
+urxvt.saveLines:12000
+urxvt.termName:rxvt-256color
+urxvt.geometry:135x50
+urxvt.visualBell:false
+urxvt.urgentOnBell:true
+
+urxvt.perl-ext-common:      default,matcher,font-size,keyboard-select,resize-font
+
+urxvt.url-launcher: chromium-freeworld
+urxvt.matcher.button: 1
+
+urxvt.keysym.M-Escape:      perl:keyboard-select:activate
+urxvt.keysym.M-s:           perl:keyboard-select:search
+urxvt.clipboard.autocopy:   true
+
+urxvt.keysym.C-Up:          perl:font-size:increase
+urxvt.keysym.C-Down:        perl:font-size:decrease
+urxvt.keysym.C-S-Up:        perl:font-size:incglobal
+urxvt.keysym.C-S-Down:      perl:font-size:decglobal

@@ -1,0 +1,57 @@
+!  THEME 1
+!Colors
+urxvt*background: #000000
+urxvt*foreground: #cfcfcf
+!Black + DarkGrey
+urxvt*color0:  #000000
+urxvt*color8:  #6a6a6a
+!Red + BrightRed
+urxvt*color1:  #e01010
+urxvt*color9:  #e83a3d
+!Green + BrightGreen
+urxvt*color2:  #20ad20
+urxvt*color10: #35e956
+!Yellow + BrightYellow
+urxvt*color3:  #d4c24f
+urxvt*color11: #ffff2f
+!Blue + BrightBlue
+urxvt*color4:  #1566b7
+urxvt*color12: #1b80e4
+!Magenta + BrightMagenta
+urxvt*color5:  #9c3885
+urxvt*color13: #e628ba
+!Cyan + BrightCyan
+urxvt*color6:  #1dbdb8
+urxvt*color14: #1cf5f5
+!LightGrey + White
+urxvt*color7:  #fefefe
+urxvt*color15: #ffffff
+
+!!  THEME 2
+!*background: #151515
+!*foreground: #dbdbdb
+!! black
+!*color0: #292929
+!*color8: #525252
+!! red
+!*color1: #cf6a4c
+!*color9: #ff9d80
+!! green
+!*color2: #99ad6a
+!*color10: #c3e6ad
+!! yellow
+!*color3: #fad07a
+!*color11: #ffefbf
+!! blue
+!*color4: #8197bf
+!*color12: #accaff
+!! magenta
+!*color5: #8787af
+!*color13: #c4c4ff
+!! cyan
+!*color6: #668799
+!*color14: #80bfaf
+!! white
+!*color7: #888888
+!*color15: #e8e8d3
+
